@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>New Tags(Elements) of HTML5</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="shortcut icon" href="/favicon.icon">
+        <meta name="viewport" contet="width=device-width">
+        <a href="author-page.html" rel="author">link text</a>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200&family=Outfit&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+        <div class=bg-img>
+
+            <nav class="top-nav">
+                <div class="logo">
+                    <p><a href="#">Your Logo Link</a></p>
+                </div>
+                <div class="center">
+                <ul>
+                    <li><a href="#">Pray</a></li>
+                    <li><a href="#">Give</a></li>
+                    <li><a href="#">Go</a></li>
+                    <li id="resources"><a href="#">Resources</a></li>
+                    <li><a href="#">About</a></li>
+                    <li id="more"><a href="#">More</a></li>
+                </ul>
+                </div>
+
+                <div class="search">
+                    <ul>
+                        <li>|  <a href="#">Contact</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#"><img src="#"></a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <div class="lower-top">
+                <div class="lower-left">
+                    <div class="box-n-img">
+
+                        <div class="description">
+                            <h1>Advancing God's Kingdom 
+                                together, nation by nation.
+                            </h1>
+                            <p>Support 'Enter association 
+                                name here' through financial 
+                                gifts.
+                            </p>
+                            <button type="button">give</button>
+                            <p>Support through volunteer opportunities 
+                                in literature, tech and research.
+                            </p>
+                            <button type="button">volunteer</button>
+                        </div>
+
+                        <div class="sub">
+                            <p>Browse in <a href="#">English</a>, 
+                                <a href="#">Espanol</a>, 
+                                <a href="#">हिंदी</a>, <a href="#">中国人</a></p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="lower-right">
+                    
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <body>
+
+        <main>
+
+            <section class="graphs">
+                <div class="global-summary">
+                    <h3>Global Summary</h3>
+                    <p>Overviews of the worlds' 
+                        people groups
+                    </p>
+                    <table>
+
+                    </table>
+                    <p>---------</p>
+                    <table>
+
+                    </table>
+                    <p>People Groups by <a href="#">Progress Scale</a></p>
+                    <img src="#">
+                </div>
+
+                <div class="explore">
+                    <h3>Explore Unreached peoples</h3>
+                </div>
+                <div class="frontier"></div>
+            </section>
+
+            <table>
+
+            </table>
+
+            <section class="prayer">
+
+            </section>
+
+            <section class="top-orgs">
+
+            </section>
+
+            <section class="article-links">
+
+            </section>
+
+
+
+        </main>
+
+        <section class="donate">
+
+        </section>
+
+    </body>
+
+    <footer>
+
+    </footer>
