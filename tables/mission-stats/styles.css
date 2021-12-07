@@ -33,6 +33,10 @@ body {
     line-height:1;
 }
 
+body img:hover {
+  transform:scale(1.1);
+}
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
@@ -105,6 +109,7 @@ input, select {
 
 ul {
     list-style: none;
+    text-transform: uppercase;
 }
 
 li {
@@ -127,64 +132,100 @@ header {
 header a {
     font-size: 18px;
     color: white;
-    gap: 15px;
     display: inline-block;
     text-align: center;
 }
 
 .left-nav {
     display: flex;
-    width: 33%;
-    gap: 0 auto;
+    width: 33.33%;
+}
+
+header ul > li {
+  display: inline-block;
+}
+
+header li {
+  margin: 30px 10px 30px 50px ;
 }
 
 .logo {
     display: flex;
-    width: 33%;
+    width: 33.33%;
+}
+
+.logo img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.img-container {
+  display: flex;
+  width: 11%;
+  margin: auto;
 }
 
 .right-nav {
     display: flex;
-    width: 33%;
+    width: 33.33%;
+    white-space: nowrap;
 }
 
 .header-fixer {
-    height: 200px;
+    height: 90px;
     background: transparent;
-    width: 100%;    
 }
 
 .sub-head {
     background-color: rgb(170, 168, 168);
-    height: 80px;
+    height: 30px;
     color:rgb(2, 21, 36);
-    font-size: 11px;
-    width: 100%;
+    font-size: 12px;
+    width: 1539px;
+    line-height: 30px;
+    letter-spacing: .1px;
 }
 
 .people-group-l {
+    display: flex;
     width: 100%;
     height: 80px;
-    color: rgb(88, 10, 10);
-    font-size: 20px;
+    color: rgb(2, 21, 36);
+    font-size: 28px;
     text-align: left;
     line-height: 80px;
+    padding-left: 60px;
 }
 
-.people-group-1::before {
-    content: url(./img/);
+.people-group-l img {
+  display: inline;
 }
 
 main {
     display: flex;
     flex-direction: row;
+    width: 1539px;
+    height: 500px;
 }
-
 
 .lists {
     display: flex;
-    flex-flow: column;
-    width: 40%;
+    flex-flow: row;
+    width: 50;
+}
+
+.left-one {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 30px;
+}
+
+.left-two {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 30px;
 }
 
 .lists a {
@@ -196,52 +237,172 @@ main {
     color: black;
     font-size: 16px;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .lists ul {
-    margin: auto;
+    display: inline-block;
+    text-align: center;
     width: 200px;
+    line-height: 1.4rem;
+    white-space: nowrap;
+    margin: 0 auto;
+  
+}
+
+.lists a {
+  color: blue;
+}
+
+.lists a:hover {
+  color: graytext;
 }
 
 .geography {
-display: flex;
-width: 50%;
+  display: flex;
+  width: 50%;
+  margin: auto;
 }
 
 .ethnicity {
     display: flex;
     width: 50%;
-
+    margin: auto;
 }
 
 .by-other {
     display: flex;
     width: 50%;
-
+    margin: auto;
 }
 
 .global-l {
     display: flex;
-    width: 50%;
-
+    width: 1500px;
+    padding: 0 auto;
 }
 
 .custom {
     display: flex;
-    width: 50%;
-
+    width: 100%;
+    margin: 0 0 0 35%;
 }
 
 .chart {
     display: flex;
-    width: 60%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between
 }
 
-footer {
-    height: 80px;
-    background-color: rgb(2, 21, 36);
+.top-space {
+  width: 100%;
+  hieght: 200px;
 }
+
+.row-1,
+ .row-2,
+  .row-3,
+   .row-4,
+    .row-5,
+     .row-6,
+      .row-7,
+       .row-8,
+        .row-9 div {
+          display:flex;
+          flex-direction:row;
+          height: 30px;
+          width: 250px;
+          justify-content: space-evenly;
+          line-height: 25px;
+}
+.inner {
+  border-right: 1px solid black;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid silver;
+  border-top: 1px solid black;
+}
+
+.row-1 { 
+  width: 100%;
+}
+
+.row-2 {
+  width: 100%;
+}
+
+.row-3 {
+  width: 100%;
+}
+
+.row-4 {  
+  width: 100%;
+}
+
+.row-5 {
+    width: 100%;
+}
+
+.row-6 {
+    width: 100%;
+}
+
+.row-7 {
+    width: 100%;
+}
+
+.row-8 {
+    width: 100%;
+}
+
+.row-9 {
+    width: 100%;
+}
+
+.bottom-space {
+  width: 100%;
+  height: 200px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgb(2, 21, 36);
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+footer a {
+  color: white;
+}
+
+footer ul > li {
+  display: inline-block;
+}
+
+footer li {
+  margin: 10px;
+}
+
+
 
 .bot-left-nav {
+  display: flex;
+  width: 50%;
+}
 
+.bot-right-nav {
+  display: flex;
+  width: 50%;
+  position: relative;
+  left: 250px;
+}
+
+#logo {
+  font-weight: bold;
+}
+
+#sister {
+  font-size: 14px;
 }
